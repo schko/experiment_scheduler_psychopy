@@ -1,0 +1,269 @@
+1.3413 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+6.3760 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024607A01340>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002462F34C6A0>, multiSample=False, name='window1', numSamples=2, pos=(540, 325), screen=0, size=array([600, 400]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.3762 	EXP 	window1: mouseVisible = True
+6.3763 	EXP 	window1: mouseVisible = True
+6.3764 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.3764 	EXP 	window1: recordFrameIntervals = False
+6.5421 	EXP 	window1: recordFrameIntervals = True
+6.7235 	EXP 	Screen (0) actual frame rate measured at 60.52Hz
+6.7236 	EXP 	window1: recordFrameIntervals = False
+6.8004 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+8.2013 	EXP 	Created text_11 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_11', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2019 	EXP 	Created text_10 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_10', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2509 	EXP 	Created stroop_instruct_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stroop_instruct_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2514 	EXP 	Created stroop_practice_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='stroop_practice_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2518 	EXP 	Created feedback_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2541 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Press SPACE to continue.', units='height', win=Window(...), wrapWidth=1)
+8.2657 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.2661 	EXP 	Created trial_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trial_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2667 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2671 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2676 	EXP 	Created text_8 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_8', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2798 	EXP 	Created feedback_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_text_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2823 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1.0, ori=0.0, pos=array([ 0. , -0.3]), rgb=UNKNOWN, text='Press SPACE to continue.', units='height', win=Window(...), wrapWidth=1)
+8.2828 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0.0, pos=array([-0.25,  0.  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2832 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([0.25, 0.  ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2836 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.2987 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='end_text', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.3020 	EXP 	Imported block_scheduler.csv as conditions, 8 conditions, 6 params
+8.3022 	EXP 	Created sequence: sequential, trialTypes=8, nReps=1, seed=None
+8.3024 	EXP 	New trial (rep=0, index=0): OrderedDict([('task_name', 'Acquisition Start'), ('duration', 1), ('task_type', 'acq_start'), ('task_parameters', None), ('start_trigger', 128), ('end_trigger', 129)])
+8.3029 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+8.3029 	EXP 	New trial (rep=0, index=0): None
+8.3269 	EXP 	textbox_2: autoLog = True
+8.3269 	EXP 	textbox: autoLog = True
+8.3269 	EXP 	text_11: autoDraw = True
+9.3252 	EXP 	text_11: autoDraw = False
+9.3259 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+9.3261 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+9.3262 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+9.3264 	EXP 	New trial (rep=0, index=1): OrderedDict([('task_name', 'Wait 1'), ('duration', 5), ('task_type', 'wait'), ('task_parameters', None), ('start_trigger', 130), ('end_trigger', 131)])
+9.3269 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+9.3270 	EXP 	Created sequence: sequential, trialTypes=1, nReps=1, seed=None
+9.3272 	EXP 	New trial (rep=0, index=0): None
+9.3418 	EXP 	text_11: autoDraw = False
+9.3418 	EXP 	text_10: autoDraw = True
+14.3300 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+14.3303 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+14.3305 	EXP 	New trial (rep=0, index=2): OrderedDict([('task_name', 'Stroop English'), ('duration', 10), ('task_type', 'stroop'), ('task_parameters', "{'filename': 'stroop-eng-'}"), ('start_trigger', 132), ('end_trigger', 133)])
+14.3312 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+14.3315 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+14.3318 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+14.3320 	EXP 	New trial (rep=0, index=0): None
+14.3459 	EXP 	text_10: autoDraw = False
+14.3459 	EXP 	text_10: autoDraw = False
+14.3459 	EXP 	stroop_instruct_text: autoDraw = True
+19.5370 	EXP 	Imported stroop_stim.csv as conditions, 9 conditions, 3 params
+19.5373 	EXP 	Created sequence: random, trialTypes=9, nReps=1, seed=None
+19.5376 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'RED'), ('color', 'green'), ('congruency', 'incongruent')])
+19.5406 	DATA 	Keypress: space
+19.5671 	EXP 	stroop_instruct_text: autoDraw = False
+19.5671 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+19.5671 	EXP 	stroop_practice_text: height = 0.05
+19.5671 	EXP 	stroop_practice_text: height = 0.05
+19.5671 	EXP 	stroop_practice_text: height = 0.05
+19.5671 	EXP 	stroop_practice_text: text = 'RED'
+19.5671 	EXP 	stroop_practice_text: autoDraw = True
+20.3352 	DATA 	Keypress: r
+20.3669 	EXP 	stroop_practice_text: autoDraw = False
+20.3669 	EXP 	feedback_text: height = 0.05
+20.3669 	EXP 	feedback_text: height = 0.05
+20.3669 	EXP 	feedback_text: height = 0.05
+20.3669 	EXP 	feedback_text: text = 'That was incorrect. The color was green, so you should have pressed the G key.'
+20.3669 	EXP 	feedback_text: autoDraw = True
+20.3669 	EXP 	text_5: autoDraw = True
+20.5014 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'RED'), ('color', 'red'), ('congruency', 'congruent')])
+20.5024 	DATA 	Keypress: space
+20.5170 	EXP 	feedback_text: autoDraw = False
+20.5170 	EXP 	text_5: autoDraw = False
+20.5170 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+20.5170 	EXP 	stroop_practice_text: text = 'RED'
+20.5170 	EXP 	stroop_practice_text: autoDraw = True
+20.6047 	DATA 	Keypress: r
+20.6172 	EXP 	stroop_practice_text: autoDraw = False
+20.6172 	EXP 	feedback_text: height = 0.05
+20.6172 	EXP 	feedback_text: height = 0.05
+20.6172 	EXP 	feedback_text: height = 0.05
+20.6172 	EXP 	feedback_text: text = 'Correct!'
+20.6172 	EXP 	feedback_text: autoDraw = True
+20.6172 	EXP 	text_5: autoDraw = True
+20.7855 	DATA 	Keypress: r
+20.9017 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'BLUE'), ('color', 'blue'), ('congruency', 'congruent')])
+20.9047 	DATA 	Keypress: space
+20.9173 	EXP 	feedback_text: autoDraw = False
+20.9173 	EXP 	text_5: autoDraw = False
+20.9173 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+20.9173 	EXP 	stroop_practice_text: height = 0.05
+20.9173 	EXP 	stroop_practice_text: height = 0.05
+20.9173 	EXP 	stroop_practice_text: height = 0.05
+20.9173 	EXP 	stroop_practice_text: text = 'BLUE'
+20.9173 	EXP 	stroop_practice_text: autoDraw = True
+21.0082 	DATA 	Keypress: r
+21.0175 	EXP 	stroop_practice_text: autoDraw = False
+21.0175 	EXP 	feedback_text: height = 0.05
+21.0175 	EXP 	feedback_text: height = 0.05
+21.0175 	EXP 	feedback_text: height = 0.05
+21.0175 	EXP 	feedback_text: text = 'That was incorrect. The color was blue, so you should have pressed the B key.'
+21.0175 	EXP 	feedback_text: autoDraw = True
+21.0175 	EXP 	text_5: autoDraw = True
+21.1520 	EXP 	New trial (rep=0, index=3): OrderedDict([('word', 'RED'), ('color', 'blue'), ('congruency', 'incongruent')])
+21.1551 	DATA 	Keypress: space
+21.1676 	EXP 	feedback_text: autoDraw = False
+21.1676 	EXP 	text_5: autoDraw = False
+21.1676 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+21.1676 	EXP 	stroop_practice_text: height = 0.05
+21.1676 	EXP 	stroop_practice_text: height = 0.05
+21.1676 	EXP 	stroop_practice_text: height = 0.05
+21.1676 	EXP 	stroop_practice_text: text = 'RED'
+21.1676 	EXP 	stroop_practice_text: autoDraw = True
+21.2534 	DATA 	Keypress: r
+21.2677 	EXP 	stroop_practice_text: autoDraw = False
+21.2677 	EXP 	feedback_text: text = 'That was incorrect. The color was blue, so you should have pressed the B key.'
+21.2677 	EXP 	feedback_text: autoDraw = True
+21.2677 	EXP 	text_5: autoDraw = True
+21.5524 	EXP 	New trial (rep=0, index=4): OrderedDict([('word', 'BLUE'), ('color', 'red'), ('congruency', 'incongruent')])
+21.5559 	DATA 	Keypress: space
+21.5678 	EXP 	feedback_text: autoDraw = False
+21.5678 	EXP 	text_5: autoDraw = False
+21.5678 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+21.5678 	EXP 	stroop_practice_text: height = 0.05
+21.5678 	EXP 	stroop_practice_text: height = 0.05
+21.5678 	EXP 	stroop_practice_text: height = 0.05
+21.5678 	EXP 	stroop_practice_text: text = 'BLUE'
+21.5678 	EXP 	stroop_practice_text: autoDraw = True
+21.6575 	DATA 	Keypress: r
+21.6680 	EXP 	stroop_practice_text: autoDraw = False
+21.6680 	EXP 	feedback_text: height = 0.05
+21.6680 	EXP 	feedback_text: height = 0.05
+21.6680 	EXP 	feedback_text: height = 0.05
+21.6680 	EXP 	feedback_text: text = 'Correct!'
+21.6680 	EXP 	feedback_text: autoDraw = True
+21.6680 	EXP 	text_5: autoDraw = True
+21.9704 	DATA 	Keypress: r
+22.0698 	EXP 	New trial (rep=0, index=5): OrderedDict([('word', 'GREEN'), ('color', 'blue'), ('congruency', 'incongruent')])
+22.0744 	DATA 	Keypress: space
+22.0851 	EXP 	feedback_text: autoDraw = False
+22.0851 	EXP 	text_5: autoDraw = False
+22.0851 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+22.0851 	EXP 	stroop_practice_text: height = 0.05
+22.0851 	EXP 	stroop_practice_text: height = 0.05
+22.0851 	EXP 	stroop_practice_text: height = 0.05
+22.0851 	EXP 	stroop_practice_text: text = 'GREEN'
+22.0851 	EXP 	stroop_practice_text: autoDraw = True
+22.2599 	DATA 	Keypress: r
+22.2685 	EXP 	stroop_practice_text: autoDraw = False
+22.2685 	EXP 	feedback_text: height = 0.05
+22.2685 	EXP 	feedback_text: height = 0.05
+22.2685 	EXP 	feedback_text: height = 0.05
+22.2685 	EXP 	feedback_text: text = 'That was incorrect. The color was blue, so you should have pressed the B key.'
+22.2685 	EXP 	feedback_text: autoDraw = True
+22.2685 	EXP 	text_5: autoDraw = True
+22.4047 	EXP 	New trial (rep=0, index=6): OrderedDict([('word', 'GREEN'), ('color', 'green'), ('congruency', 'congruent')])
+22.4075 	DATA 	Keypress: space
+22.4192 	EXP 	feedback_text: autoDraw = False
+22.4192 	EXP 	text_5: autoDraw = False
+22.4192 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+22.4192 	EXP 	stroop_practice_text: text = 'GREEN'
+22.4192 	EXP 	stroop_practice_text: autoDraw = True
+22.6885 	DATA 	Keypress: r
+22.7351 	EXP 	stroop_practice_text: autoDraw = False
+22.7351 	EXP 	feedback_text: height = 0.05
+22.7351 	EXP 	feedback_text: height = 0.05
+22.7351 	EXP 	feedback_text: height = 0.05
+22.7351 	EXP 	feedback_text: text = 'That was incorrect. The color was green, so you should have pressed the G key.'
+22.7351 	EXP 	feedback_text: autoDraw = True
+22.7351 	EXP 	text_5: autoDraw = True
+22.8203 	EXP 	New trial (rep=0, index=7): OrderedDict([('word', 'BLUE'), ('color', 'green'), ('congruency', 'incongruent')])
+22.8240 	DATA 	Keypress: space
+22.8355 	EXP 	feedback_text: autoDraw = False
+22.8355 	EXP 	text_5: autoDraw = False
+22.8355 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+22.8355 	EXP 	stroop_practice_text: height = 0.05
+22.8355 	EXP 	stroop_practice_text: height = 0.05
+22.8355 	EXP 	stroop_practice_text: height = 0.05
+22.8355 	EXP 	stroop_practice_text: text = 'BLUE'
+22.8355 	EXP 	stroop_practice_text: autoDraw = True
+23.1390 	DATA 	Keypress: r
+23.1527 	EXP 	stroop_practice_text: autoDraw = False
+23.1527 	EXP 	feedback_text: text = 'That was incorrect. The color was green, so you should have pressed the G key.'
+23.1527 	EXP 	feedback_text: autoDraw = True
+23.1527 	EXP 	text_5: autoDraw = True
+23.2875 	EXP 	New trial (rep=0, index=8): OrderedDict([('word', 'GREEN'), ('color', 'red'), ('congruency', 'incongruent')])
+23.2928 	DATA 	Keypress: space
+23.3028 	EXP 	feedback_text: autoDraw = False
+23.3028 	EXP 	text_5: autoDraw = False
+23.3028 	EXP 	stroop_practice_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+23.3028 	EXP 	stroop_practice_text: height = 0.05
+23.3028 	EXP 	stroop_practice_text: height = 0.05
+23.3028 	EXP 	stroop_practice_text: height = 0.05
+23.3028 	EXP 	stroop_practice_text: text = 'GREEN'
+23.3028 	EXP 	stroop_practice_text: autoDraw = True
+23.6097 	DATA 	Keypress: r
+23.6196 	EXP 	stroop_practice_text: autoDraw = False
+23.6196 	EXP 	feedback_text: height = 0.05
+23.6196 	EXP 	feedback_text: height = 0.05
+23.6196 	EXP 	feedback_text: height = 0.05
+23.6196 	EXP 	feedback_text: text = 'Correct!'
+23.6196 	EXP 	feedback_text: autoDraw = True
+23.6196 	EXP 	text_5: autoDraw = True
+23.7227 	DATA 	Keypress: space
+23.7365 	EXP 	feedback_text: autoDraw = False
+23.7365 	EXP 	text_5: autoDraw = False
+23.7365 	EXP 	text_7: autoDraw = True
+26.6615 	EXP 	Imported stroop_stim.csv as conditions, 9 conditions, 3 params
+26.7245 	EXP 	Created sequence: random, trialTypes=9, nReps=10000, seed=None
+26.7440 	EXP 	New trial (rep=0, index=0): OrderedDict([('word', 'GREEN'), ('color', 'red'), ('congruency', 'incongruent')])
+26.7461 	DATA 	Keypress: space
+26.7548 	EXP 	text_7: autoDraw = False
+26.7548 	EXP 	trial_text: foreColor = <psychopy.colors.Color: red, alpha=1.0>
+26.7548 	EXP 	trial_text: height = 0.05
+26.7548 	EXP 	trial_text: height = 0.05
+26.7548 	EXP 	trial_text: height = 0.05
+26.7548 	EXP 	trial_text: text = 'GREEN'
+26.7548 	EXP 	trial_text: autoDraw = True
+34.0832 	EXP 	New trial (rep=0, index=1): OrderedDict([('word', 'BLUE'), ('color', 'green'), ('congruency', 'incongruent')])
+34.0858 	DATA 	Keypress: r
+34.0862 	DATA 	Keypress: space
+34.0939 	EXP 	trial_text: autoDraw = False
+34.0939 	EXP 	trial_text: foreColor = <psychopy.colors.Color: green, alpha=1.0>
+34.0939 	EXP 	trial_text: height = 0.05
+34.0939 	EXP 	trial_text: height = 0.05
+34.0939 	EXP 	trial_text: height = 0.05
+34.0939 	EXP 	trial_text: text = 'BLUE'
+34.0939 	EXP 	trial_text: autoDraw = True
+34.5668 	EXP 	New trial (rep=0, index=2): OrderedDict([('word', 'BLUE'), ('color', 'blue'), ('congruency', 'congruent')])
+34.5676 	DATA 	Keypress: r
+34.5775 	EXP 	trial_text: autoDraw = False
+34.5775 	EXP 	trial_text: foreColor = <psychopy.colors.Color: blue, alpha=1.0>
+34.5775 	EXP 	trial_text: text = 'BLUE'
+34.5775 	EXP 	trial_text: autoDraw = True
+34.6288 	DATA 	Keypress: space
+36.6977 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+36.6978 	EXP 	New trial (rep=0, index=3): OrderedDict([('task_name', 'Math'), ('duration', 20), ('task_type', 'math'), ('task_parameters', "{'filename': 'math-', 'max_value': 40, 'presentation_duration': 2}"), ('start_trigger', 134), ('end_trigger', 135)])
+36.6984 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+36.6985 	EXP 	Created sequence: sequential, trialTypes=1, nReps=0, seed=None
+36.6987 	EXP 	Created sequence: random, trialTypes=1, nReps=0, seed=None
+36.6989 	EXP 	Created sequence: random, trialTypes=1, nReps=1, seed=None
+36.6990 	EXP 	New trial (rep=0, index=0): None
+36.7010 	EXP 	Imported math_stim.csv as conditions, 4 conditions, 1 params
+36.7012 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+36.7013 	EXP 	New trial (rep=0, index=0): OrderedDict([('trial_sign', 'subtraction')])
+36.7124 	EXP 	trial_text: autoDraw = False
+36.7124 	EXP 	text_4: height = 0.05
+36.7124 	EXP 	text_4: height = 0.05
+36.7124 	EXP 	text_4: height = 0.05
+36.7124 	EXP 	text_4: text = 5
+36.7124 	EXP 	text_6: height = 0.05
+36.7124 	EXP 	text_6: height = 0.05
+36.7124 	EXP 	text_6: height = 0.05
+36.7124 	EXP 	text_6: text = 6
+36.7124 	EXP 	text_8: height = 0.05
+36.7124 	EXP 	text_8: height = 0.05
+36.7124 	EXP 	text_8: height = 0.05
+36.7124 	EXP 	text_8: text = '-'
+36.7124 	EXP 	text_4: autoDraw = True
+36.7124 	EXP 	text_6: autoDraw = True
+36.7124 	EXP 	text_8: autoDraw = True
+36.7124 	EXP 	textbox_2: autoDraw = True
+46.0241 	DATA 	Keypress: escape
+46.6511 	EXP 	window1: mouseVisible = True

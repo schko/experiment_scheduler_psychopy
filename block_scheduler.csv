@@ -1,0 +1,9 @@
+﻿task_name,duration,task_type,task_parameters,start_trigger,end_trigger
+Acquisition Start,1,acq_start,,128,129
+Wait 1,5,wait,,130,131
+Stroop English,10,stroop,{'filename': 'stroop-eng-'},132,133
+Math,20,math,"{'filename': 'math-', 'max_value': 40, 'presentation_duration': 2}",134,135
+Stroop English,10,stroop,{'filename': 'stroop-eng-'},136,137
+Recovery 1,10,wait,,138,139
+Stroop English,10,stroop,{'filename': 'stroop-eng-'},140,141
+Recovery 1,20,wait,,142,143
