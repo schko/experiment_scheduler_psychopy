@@ -1,9 +1,10 @@
-﻿task_name,duration,task_type,task_parameters,start_trigger,end_trigger
-Acquisition Start,1,acq_start,,128,129
-Wait 1,5,wait,,130,131
-Stroop English,10,stroop,{'filename': 'stroop-eng-'},132,133
-Math,20,math,"{'filename': 'math-', 'max_value': 40, 'presentation_duration': 2}",134,135
-Stroop English,10,stroop,{'filename': 'stroop-eng-'},136,137
-Recovery 1,10,wait,,138,139
-Stroop English,10,stroop,{'filename': 'stroop-eng-'},140,141
-Recovery 1,20,wait,,142,143
+﻿task_index,task_name,duration,task_type,start_trigger,end_trigger,task_parameters
+1,Acquisition Start,0.1,acq_start,128,129,
+2,Stroop,10,stroop,132,133,"{'filename': 'stroop-', 'language': 'spanish'}"
+3,Wait 1,0,wait,130,131,
+4,Math,20,math,134,135,"{'filename': 'math-', 'max_value': 40, 'presentation_duration': 2}"
+5,Stroop,10,stroop,136,137,"{'filename': 'stroop-', 'language': 'english'}"
+6,Recovery 1,10,wait,138,139,
+7,Stroop,10,stroop,140,141,"{'filename': 'stroop-', 'language': 'english'}"
+8,Recovery 1,20,wait,142,143,
+9,Acquisition End,0.1,acq_end,144,145,
